@@ -1,0 +1,29 @@
+{
+  "name": "Learning_Git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:js",
+    "test:html": "glob-run nu-html-checker *.html",
+    "test:js": "jshint --reporter js/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathew43/nauka-gita.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathew43/nauka-gita/issues"
+  },
+  "homepage": "https://github.com/mathew43/nauka-gita#readme",
+  "dependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.18.13",
+    "glob-run": "^0.1.6",
+    "jshint": "^2.9.5",
+    "nu-html-checker": "^0.1.0"
+  }
+}
